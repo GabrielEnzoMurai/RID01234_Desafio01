@@ -90,3 +90,12 @@
     margin-top: 160px;
 }
 
+#forms {
+    display: grid;
+    grid-auto-flow: row;
+    text-align: center;
+}
+
+.caixaTexto {
+    height: 30px;
+}
