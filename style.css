@@ -58,23 +58,35 @@
 #textoImagem {
     display: grid;
     grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    justify-content: center;
 }
 
 #textoImagem h1 {
     font-family: Inter;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 20px;
-    letter-spacing: 0px;
-    vertical-align: middle;
+    padding-bottom: 15px;
+
 }
 
 #textoImagem p {
+    text-align: left;
     font-family: Inter;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
-    letter-spacing: 0px;
-    vertical-align: middle;
+    padding-right: 5px;
+}
+
+#textoImagem img {
+    width: 510px;
+    height: 500px;
+}
+
+#ArquitetoTexto {
+    margin-left: 80px;
+    margin-top: 160px;
 }
 
