@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <title>Landing Page</title>
 </head>
@@ -45,20 +46,22 @@
             <img src="img/sala.svg" alt="">
         </div>
     </div>
+
     <div id="forms">
         <div>
-            <h2>Conheça mais sobre nossos serviços:</h2>
+            <h2 id="textoForm">Conheça mais sobre nossos serviços:</h2>
         </div>
-        <div>
-            <form id="caixasBotao" action="">
-                <div id="inputNome">
-                    <input class="caixaTexto" placeholder="Nome" type="text">
+        <div id="formulario">
+            <form action="https://api.sheetmonkey.io/form/WpjeECBTJghfSiQu3krEG" method="POST">
+                <div id="nomeBox">
+                    <input class="textBox" placeholder="Nome" name="Name" required type="text">
                 </div>
-                <div id="inputEmail">
-                    <input class="caixaTexto" placeholder="Email" type="text">
+                <div id="emailBox">
+                    <input class="textBox" placeholder="Email" name="Email" required type="text">
                 </div>
-                <div id="botao">
-                    <button type="submit">Fale Conosco</button>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <div id="button">
+                    <button id="botao" type="submit">Fale Conosco</button>
                 </div>  
             </form>
         </div> 
